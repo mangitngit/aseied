@@ -11,7 +11,7 @@ def bubble_sort(sort):                      # sortowanie bąbelkowe
                 sort[i], sort[i-1] = sort[i-1], sort[i]
                 list_sorted = True
         if not list_sorted:
-                break
+            break
     end = time.time()
     operation_time = end - start
     print("bubble sort time =    ", round(operation_time, 5))
